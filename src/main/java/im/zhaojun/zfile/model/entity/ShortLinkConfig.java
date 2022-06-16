@@ -13,6 +13,7 @@ public class ShortLinkConfig {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    @Column(name = "[key]")
     private String key;
 
     private String url;
